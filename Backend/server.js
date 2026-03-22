@@ -2,7 +2,7 @@ import express from "express";
 import dotenv from "dotenv";
 import cors from "cors";
 import connectDB from "./config/db.js";
-import ticketRoutes from "./routes/ticketRoutes.js";
+import ticketRoutes from "../Backend/routes/TicketRoute.js";
 
 dotenv.config();
 
